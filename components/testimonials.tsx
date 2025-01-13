@@ -1,9 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { ArrowLeft, ArrowRight } from "lucide-react";
 import { Card } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
 import {
   Carousel,
   CarouselContent,
@@ -87,7 +85,7 @@ export function Testimonials() {
                 <Card className="p-8 bg-white">
                   <blockquote className="space-y-6">
                     <p className="text-xl font-manrope">
-                      "{testimonial.quote}"
+                      &quot;{testimonial.quote}&quot;
                     </p>
                     <footer className="flex items-center gap-4">
                       <Image

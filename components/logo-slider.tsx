@@ -1,4 +1,3 @@
-import { P } from "@/components/ui/typography";
 import Image from "next/image";
 
 export function LogoSlider() {
