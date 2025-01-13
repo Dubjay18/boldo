@@ -10,7 +10,7 @@ export function H1({ children, className, ...props }: TypographyProps) {
   return (
     <h1
       className={cn(
-        "font-manrope text-4xl font-bold leading-tight tracking-tight md:text-5xl lg:text-6xl",
+        "font-manrope text-4xl font-normal leading-tight tracking-tight md:text-5xl lg:text-6xl",
         className
       )}
       {...props}
@@ -24,7 +24,7 @@ export function H2({ children, className, ...props }: TypographyProps) {
   return (
     <h2
       className={cn(
-        "font-manrope text-3xl font-bold leading-tight tracking-tight md:text-4xl lg:text-5xl",
+        "font-manrope text-3xl font-normal leading-tight tracking-tight md:text-4xl lg:text-5xl",
         className
       )}
       {...props}
@@ -38,7 +38,7 @@ export function H3({ children, className, ...props }: TypographyProps) {
   return (
     <h3
       className={cn(
-        "font-manrope text-2xl font-bold leading-tight tracking-tight md:text-3xl",
+        "font-manrope text-2xl font-normal leading-tight tracking-tight md:text-3xl",
         className
       )}
       {...props}
